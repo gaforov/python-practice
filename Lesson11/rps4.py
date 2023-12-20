@@ -2,7 +2,7 @@ import random
 import sys
 from enum import Enum
 
-# Recursive version of the game
+# We are adding scope to the game. 4th version/iteration. 
 game_count = 0
 
 def play_rps():
