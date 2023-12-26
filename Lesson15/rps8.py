@@ -27,7 +27,7 @@ def rps(name='PlayerOne'):
             print('\n{name}, please enter 1, 2, or 3. Try again.')
             return play_rps()
 
-        # I could have converted in line 14 but for accepting user input both for int and string this way is better.
+        # I could have converted in line 23 above but for accepting user input both for int and string this way is better.
         player = int(player_choice)
 
         computer = int(random.choice([1, 2, 3]))
