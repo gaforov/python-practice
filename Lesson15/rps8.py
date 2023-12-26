@@ -2,7 +2,8 @@ import random
 import sys
 from enum import Enum
 
-# We are converting some prints to f-strings
+# Adding ArgumentParser (command line) to make the game more personalized. 
+# Note: To achieve this, you need to be 'in' the folder and run with command line, not play button. Ex: python3 rps8.py -n 'Said'
 
 
 def rps(name='PlayerOne'):
