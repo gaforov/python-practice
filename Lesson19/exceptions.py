@@ -4,10 +4,11 @@
 try:
     print(b)
 except:
-    print('There is an error')
+    print('\nThere is an error')
 
 
-print('\n---------------\n')
+print('---------------\n')
+
 # Catching the exception in more specific way
 try:
     print(c)
@@ -29,5 +30,5 @@ except Exception:
 else:
     print('No errors!')
 finally:
-    print('Finally block prints whether error occurs or not.')
+    print('Finally block (always) prints whether error occurs or not.\n')
 

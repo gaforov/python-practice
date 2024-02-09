@@ -4,4 +4,3 @@ try:
         raise TypeError('Only strings are allowed.')
 except Exception as e:
     print(e)
-
