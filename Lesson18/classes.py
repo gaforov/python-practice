@@ -4,18 +4,21 @@ class Vehicle:
         self.model = model
     
     def moves(self):
-        print('Moves along...')
+        print(f'{self.make} {self.model} moves along...')
 
     def get_make_model(self):
         print(f"Vehicle type is '{self.make} {self.model}'")
 
-my_car = Vehicle('Toyota', 'camry')
+car1 = Vehicle('Toyota', 'camry')
+car2 = Vehicle('Honda', 'Accord')
 
-print(my_car.make)
-print(my_car.model)
-my_car.moves()
+print(car1.make)
+print(car1.model)
+car1.moves()
+car2.moves()
 
-my_car.get_make_model()
+car1.get_make_model()
+car2.get_make_model()
 print('------------------------------')
 
 class Airplane(Vehicle):
@@ -50,7 +53,7 @@ clubcar.moves()
 
 print('\n---------------\n')
 
-for v in (my_car, boeing, tacoma, clubcar):
+for v in (car1, boeing, tacoma, clubcar):
     v.get_make_model()
     v.moves()
 
