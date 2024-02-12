@@ -23,13 +23,14 @@ print("\n------------------ 2\n")
 Jim = InterestRewardsAcct(1000, "Jim")
 Jim.getBalance()
 Jim.deposit(100)
-Jim.transfer(100, Said) #Said account had $100 up to this point, should be $200 after this line
+# Said account had $100 up to this point, should be $200 after this line
+Jim.transfer(100, Said)
 
 print("\n------------------ 3\n")
 
 Mary = SavingsAccount(1000, "Mary")
 Mary.getBalance()
 Mary.deposit(100)
-Mary.transfer(10000,Said)
-Mary.transfer(200, Said) #Said account had $200 up to this point, should be $400 after this line ($5 fee gets deducted too = $205)
-
+Mary.transfer(10000, Said)
+# Said account had $200 up to this point, should be $400 after this line ($5 fee gets deducted too = $205)
+Mary.transfer(200, Said)
