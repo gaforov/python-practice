@@ -1,0 +1,7 @@
+python-dotenv==1.0.1
+requests==2.31.0
+# Note: The following dependencies are installed with 'requests' as sub-requirements. No need to install them invidually. 
+    # certifi==2024.2.2
+    # charset-normalizer==3.3.2
+    # idna==3.6
+    # urllib3==2.2.0
